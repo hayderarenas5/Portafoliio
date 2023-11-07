@@ -67,7 +67,7 @@ const Home = () => {
             
         </div>
             <hr className=" w-[90%] mx-auto border border-primary"/>
-            <h2 className="text-[#21243D] font-normal text-sm text-center px-4 pt-3">Hayder Arenas©2023 Todos los derechos reservados</h2>
+            <h2 className="text-[#21243D] font-normal text-sm text-center px-4 pt-3">Hayder Arenas© 2023 Todos los derechos reservados</h2>
     </PlayLayout>
   )
 }
