@@ -1,6 +1,7 @@
 import emailjs from "@emailjs/browser"
 import PlayLayout from "../layouts/PlayLayout"
-import { IconMail } from "@tabler/icons-react"
+import { IconBrandLinkedin, IconMail } from "@tabler/icons-react"
+import { Link } from "react-router-dom"
 const Contact = () => {
 
     const sendEmail=(e)=>{
@@ -25,6 +26,9 @@ const Contact = () => {
             <textarea className="shadow-md border-r-4 border-secondary rounded-lg outline-none py-1 px-3" name="user_message" id="message" cols="30" rows="10"></textarea>
             <button className="py-2 px-4 rounded-md hover:bg-blue-500 transition-colors bg-secondary my-4 border-none text-white mx-auto">Enviar</button>
          </form>
+         <hr className=" w-[90%] mx-auto border border-primary"/>
+            <Link to="https://www.linkedin.com/in/hayder-arenas-5956971b1/"><IconBrandLinkedin  className="mx-auto h-[30px] w-[50px]"/></Link>
+            <h2 className="text-[#21243D] font-normal text-sm text-center px-4 pt-3">Hayder Arenas© 2023 Todos los derechos reservados</h2>
         </div>
     </PlayLayout>
   )
