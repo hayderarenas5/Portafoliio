@@ -35,6 +35,37 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <div className="shadow-md mb-2">
+            <h2 className="flex justify-center py-2 font-semibold text-[#21243D]">Habilidades de desarrollo</h2>
+            <div className="flex justify-center pb-2 md:gap-8">
+                <Link to="https://es.react.dev/">
+                    <header className="w-[50px]">
+                        <img  src="/images/skills/react.png" alt="" />
+                    </header>
+                </Link>
+                <Link to="https://developer.mozilla.org/es/docs/Web/JavaScript">
+                    <header className="w-[50px]">
+                        <img  src="/images/skills/js.webp" alt="" />
+                    </header>
+                </Link>
+                <Link to="https://www.java.com/es/">
+                    <header className="w-[50px]">
+                        <img  src="/images/skills/java.png" alt="" />
+                    </header>
+                </Link>
+                <Link to="https://developer.mozilla.org/es/docs/Web/HTML">
+                    <header className="w-[50px]">
+                        <img  src="/images/skills/html.png" alt="" />
+                    </header>
+                </Link>
+                <Link to="https://developer.mozilla.org/es/docs/Web/CSS">
+                    <header className="w-[50px]">
+                        <img  src="/images/skills/css.png" alt="" />
+                    </header>
+                </Link>
+            </div>
+        </div>
+        
         <div className="md:w-[90%] mx-auto">
                 <h1 className="font-semibold text-center py-3 md:text-2xl text-[#21243D]">Trabajos</h1>
                 <hr className="w-[80%] mx-auto pb-3"/>
