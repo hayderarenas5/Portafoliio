@@ -17,13 +17,13 @@ const Contact = () => {
          <h1 className="text-2xl flex justify-center uppercase items-center gap-2">Mandame un mensaje<IconMail className="text-secondary"/></h1>
          <form className="grid gap-[18px]" onSubmit={sendEmail}>
             <label className="hover:text-secondary transition-colors" htmlFor="name">Nombre</label>
-            <input className="shadow-md  border-r-4 border-secondary rounded-lg outline-none py-1 px-3" id="name" name="user_name" type="text" />
+            <input className="shadow-md  border-r-4 border-secondary rounded-lg outline-none py-1 px-3" id="name" name="user_name" type="text" placeholder="Nombre"/>
 
             <label className="hover:text-secondary transition-colors" htmlFor="email">E-mail</label>
-            <input className="shadow-md border-r-4 border-secondary rounded-lg outline-none py-1 px-3" id="email" name="user_email" type="email" />
+            <input className="shadow-md border-r-4 border-secondary rounded-lg outline-none py-1 px-3" id="email" name="user_email" type="email" placeholder="Correo Electronico"/>
 
             <label className="hover:text-secondary transition-colors" htmlFor="message">Mensaje</label>
-            <textarea className="shadow-md border-r-4 border-secondary rounded-lg outline-none py-1 px-3" name="user_message" id="message" cols="30" rows="10"></textarea>
+            <textarea className="shadow-md border-r-4 border-secondary rounded-lg outline-none py-1 px-3" name="user_message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
             <button className="py-2 px-4 rounded-md hover:bg-blue-500 transition-colors bg-secondary my-4 border-none text-white mx-auto">Enviar</button>
          </form>
          <hr className=" w-[90%] mx-auto border border-primary"/>

@@ -4,9 +4,8 @@ import './App.css'
 import Blog from './pages/Blog'
 import Home from './pages/Home'
 import Works from './pages/Works'
-
+import Contact from './pages/Contact'
 import './App.css'
-import Contact from './pages/contact'
 
 function App() {
   
