@@ -12,7 +12,7 @@ const Home = () => {
             <p className="md:w-[500px] md:mx-auto pt-3">Soy una persona muy dedicada que cumple con las labores y requerimientos que se le
             exigen, honesta, sincera, responsable, pro activa, capaz de ejercer las labores que me
             sean asignadas...</p>
-            <a href="/documents/HDVHayderArenas1.pdf" download><button className="bg-secondary hover:bg-blue-600 transition-colors text-white p-2 rounded-md mx-auto">descargar documento</button></a>
+            <a href="/documents/HDV_HayderArenas.pdf" download><button className="bg-secondary hover:bg-blue-600 transition-colors text-white p-2 rounded-md mx-auto">descargar documento</button></a>
         </div>
         <div className="w-[262px] pb-7 bg-[#EDF7FA] sm:w-[100%] md:w-[100%]">
             <div className="flex items-center p-3 justify-center "> 
