@@ -108,10 +108,10 @@ const Works = () => {
           </div>
         </Link>
         <hr />
-        <Link to="#">
+        <Link to="https://jolly-faun-19a3ab.netlify.app/">
           <div className="hover:bg-primary rounded-md transition-colors md:grid md:grid-cols-2 md:items-center py-3 relative dark:hover:bg-slate-400 dark:text-white">
             <header>
-              <img className="md:w-[300px] rounded-2xl" src="/images/works/music.png" alt="" />
+              <img className="md:w-[300px] rounded-2xl md:h-44" src="/images/works/ESLAND.png" alt="" />
             </header>
             <div className="md:grid md:grid-cols-3 md:items-center relative py-3">
               <h2 className="text-lg py-1 font-semibold">GIFT MUSIC</h2>

@@ -84,9 +84,9 @@ const Home = () => {
             
             <hr className="w-[80%] mt-3 mx-auto"/>
             <div className=" pb-3 md:flex md:items-center">
-                <header className="sm:w-[300px] sm:mx-auto md:w-[395px] md:h-[160px] md:flex md:items-center">
+                <header className="sm:w-[300px]  sm:mx-auto md:w-[395px] md:h-[160px] md:flex md:items-center">
                     <Link to="/works">
-                        <img className="rounded-lg overflow-hidden transform hover:scale-105 transition duration-250 cursor-pointer" src="/images/works/music.png" alt="" />
+                        <img className="rounded-lg overflow-hidden h-24 transform hover:scale-105 transition duration-250 cursor-pointer" src="/images/works/ESLAND.png" alt="" />
                      </Link>
                 </header>
                 <div className="flex justify-center gap-2 py-2 px-1 items-center">
