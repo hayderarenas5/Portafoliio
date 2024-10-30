@@ -114,9 +114,9 @@ const Works = () => {
               <img className="md:w-[300px] rounded-2xl md:h-44" src="/images/works/ESLAND.png" alt="" />
             </header>
             <div className="md:grid md:grid-cols-3 md:items-center relative py-3">
-              <h2 className="text-lg py-1 font-semibold">GIFT MUSIC</h2>
+              <h2 className="text-lg py-1 font-semibold">Esland</h2>
               <p>13 Sep | <span className="px-1 bg-[#142850] inline text-white rounded-2xl">2023</span></p>
-              <p className="text-sm md:col-span-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              <p className="text-sm md:col-span-3">Es una plataforma inspirada en el evento de los Esland creado por el streamer theGrefg, donde se dan premios como al stremer del año, el clip del año, etc.</p>
               
             </div>
           </div>
